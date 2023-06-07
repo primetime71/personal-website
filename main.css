@@ -1,18 +1,32 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
-
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+box-sizing: border-box;
+margin: 0;
+}
 
+html{
+  background: #E5ECE9;
+  color: #171614;
 }
 body{
-    height: 100vh;
-    width: 100vw;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
 }
+
+h1, p{
+  margin: 1rem 0rem;
+}
+a{
+  color: #F90093;
+}
+
+a:hover{
+  color: #C60F7B;
+}
+
 
